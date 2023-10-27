@@ -1,0 +1,697 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+/* body style */
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+/* header style */
+
+header {
+    position: fixed;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding: 0;
+    width: 100%;
+    box-shadow: 6px 6px 11px black;
+}
+
+.el_salvador_logo_new {
+    width: 230px;
+    cursor: pointer;
+}
+
+/* navigation bar */
+
+.navbar {
+    z-index: 100;
+}
+
+.mobileNavBar {
+    display: none;
+}
+
+.nav-Button {
+    display: none;
+}
+
+.nav-Toggle {
+    display: none;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 3px;
+    background-color: none;
+}
+
+nav ul li a {
+    text-decoration: wavy;
+    text-transform: uppercase;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: lighter;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.607);
+    color: rgb(1, 44, 153);
+    font-size: 1rem;
+    align-self: end;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+
+nav ul li :hover {
+    background-color: rgba(1, 9, 60, 0.714);
+    border-radius: 2px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.352);
+    color: rgb(219, 235, 249);
+    }
+
+nav ul li a:hover {
+    box-shadow: none;
+}
+
+h1 {
+    padding-top: 140px;
+    padding-bottom: 40PX;
+    color: rgb(1, 44, 153);
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.599);
+}
+
+
+/* main */
+
+.introBox {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.home-image-box {
+    margin-top: 300px;
+    margin-left: 6%;
+    position: absolute;
+    width: 45%;
+    background-color: rgba(1, 13, 47, 0.333);
+    box-shadow: 4px 4px 6px rgba(1, 59, 113, 0.682);
+    border-radius: 8px;
+}
+
+.home-image-box h2 {
+    color: rgb(204, 221, 26);
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    text-shadow: 2px 2px 4px rgba(3, 1, 29, 0.725);
+    font-size: 1.4rem;
+}
+
+.home-image-box p {
+    padding: 20px;
+    text-align: left;
+    color: rgb(246, 243, 243);
+    font-size: 1.1rem;
+    font-family: 'Varela Round', sans-serif;
+    text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.648);
+}
+
+.tittleWonder {
+    position: absolute;
+    left: 55%;
+    margin-top: 100px;
+    font-family: 'Varela Round', sans-serif;
+    color: rgba(255, 255, 255, 0.893);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.651);
+}
+
+main img {
+    width: 100%;
+    height: 100%;
+}
+
+/* explorer page style */
+
+.exploreOrder {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    row-gap: 25px;
+    background-color: rgba(0, 150, 80, 0.268);
+    width: 100%;
+    height: fit-content;
+}
+
+.textExplore {
+    position: absolute;
+    top: 45%;
+    left: 35%;
+    color: whitesmoke;
+    font-size: 1rem;
+    text-shadow: 3px 3px 5px rgb(1, 1, 93);
+    font-family: 'Varela Round', sans-serif;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+.explorecontent {
+    position: relative;
+    background-color: rgb(39, 37, 37);
+
+}
+
+.explorecontent {
+    width: 400px;
+    height: 300px;
+    padding: 0px;
+    margin: 20px;
+    box-shadow: 5px 5px 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.explorecontent:hover {
+    transform: scale(1.1);
+}
+
+.textExplore:hover {
+    transform: scale(1.1);
+    text-shadow: 4px 4px 10px rgb(1, 1, 93);
+    color: white;
+}
+
+.esaPlay {
+    border-radius: 8px;
+}
+
+.playEsa2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* guide page style */
+
+h2 {
+    color: rgb(1, 44, 153);
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+    margin: 10px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.651);
+}
+
+
+.guideI {
+    object-fit: cover;
+    cursor: pointer;
+    width: 400px;
+    height: 360px;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.766);
+}
+
+.guideA {
+    object-fit: cover;
+    cursor: pointer;
+    width: 400px;
+    height: 300px;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.766);
+}
+
+.guideOrder :hover {
+    transform: scale(1.1);
+}
+
+.guideOrder {
+    display: grid;
+    background-color: rgba(0, 150, 80, 0.268);
+    place-items: center;
+    grid-template-rows: repeat(auto-fit, minmax(400px, 1fr));
+    row-gap: 25px;
+    width: 100%;
+    height: fit-content;
+    padding-bottom: 40px;
+    transition: 0.3s;
+}
+
+h3 {
+    color: rgb(1, 44, 153);
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+    margin: 60px;
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.651);
+}
+
+/* wonder page style */
+
+.playEsa {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    padding-right: 5%;
+}
+
+
+
+.videoEsa {
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.playEsa p {
+    color: rgba(1, 51, 20, 0.832);
+    font-family: 'Varela Round', sans-serif;
+    padding: 20PX;
+    box-shadow: 4PX 4PX 6PX;
+    border-radius: 7px;
+    font-size: 1.2rem;
+}
+
+.mapEsa {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    padding-right: 5%;
+}
+
+.googlemapEsa {
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 4px 4px 6px black;
+}
+
+.mapEsa p {
+    color: rgba(1, 51, 20, 0.832);
+    font-family: 'Varela Round', sans-serif;
+    padding: 20PX;
+    box-shadow: 4PX 4PX 6PX;
+    border-radius: 7px;
+    font-size: 1.2rem;
+}
+
+
+/* wonder products page */
+
+.productsInput p {
+    color: rgba(1, 65, 36, 0.832);
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.2em;
+}
+
+.artesaniasOrder {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    row-gap: 25px;
+    width: 100%;
+    height: fit-content;
+    padding-bottom: 40px;
+}
+
+.artesanias {
+    width: 350px;
+    height: 300px;
+    padding: 0;
+    margin: 20px;
+    box-shadow: 5px 5px 10px;
+    transition: 0.3s, 0.3s;
+}
+
+.artesanias img {
+    width: 350px;
+    height: 300px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.artesanias:hover {
+    transform: scale(1.1);
+}
+
+.artesanias p {
+    color: rgb(1, 44, 153);
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+    padding: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* wonder contact page */
+
+form {
+    margin-top: 30px;
+}
+
+label {
+    display: block;
+    font-family: 'Varela Round', sans-serif;
+    margin-top: 12px;
+    margin-bottom: 2px;
+    color: rgb(1, 44, 153);
+}
+
+input [type="text"],
+textarea {
+    display: block;
+    width: 25%;
+    padding: 5px;
+    border: 5px solid rgb(41, 41, 121);
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+
+}
+
+.contactbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* footer */
+
+footer {
+    margin-top: 100%;
+    border-top: 2px solid black;
+    color: rgba(255, 255, 255, 0.681);
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+    padding-bottom: 10px;
+    background-color: rgb(4, 4, 87);
+}
+
+footer h3 {
+    color: rgb(11, 65, 202);
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+    margin: 60px;
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.651);
+}
+
+.submitreset {
+    background-color: rgb(99, 98, 98);
+    color: rgba(236, 255, 60, 0.832);
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 15px;
+    width: 60px;
+    height: 30px;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+textarea {
+    width: 100%;
+}
+
+label {
+    margin-bottom: 4px;
+}
+
+.submitreset {
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
+    border: none;
+}
+
+
+@media (max-width:700px) {
+
+    /* Navigatio Bar for mobile device */
+
+    .noMobileNavBar {
+        display: none;
+    }
+
+    .navbarMobile {
+        display: none;
+    }
+
+    .nav-Toggle {
+        display: none;
+    }
+
+    #navToggle:checked+.nav-Button+.navbarMobile {
+        display: block;
+    }
+
+    .nav-Button {
+        display: block;
+        background-color: rgba(1, 1, 69, 0.868);
+        color: white;
+        padding: 10px;
+        margin-right: 15px;
+        margin-bottom: 22px;
+        border-radius: 12px;
+        font-family: 'Varela Round', sans-serif;
+        box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.57);
+
+    }
+
+    .mobileNavBar {
+        display: block;
+        position: fixed;
+        inset: 100px 0 55% 66%;
+        background-color: rgba(31, 31, 31, 0.466);
+        padding: 10px;
+    }
+
+
+    a {
+        font-size: 1.2rem;
+        display: flex;
+        color: white;
+    }
+
+    /* Home mobile */
+
+    .tittleWonder {
+        font-size: 15px;
+        left: 55%;
+        margin-top: 1px;
+    }
+
+    .home-image-box {
+        margin-top: 170px;
+        width: 40%;
+    }
+
+    .home-image-box h2 {
+        font-size: 1rem;
+    }
+
+    .home-image-box p {
+        font-size: 15px;
+        padding: 10px;
+        padding-top: 0px;
+    }
+
+    .paragraph {
+        display: none;
+    }
+
+    footer {
+        display: none;
+    }
+
+    /* WONDER MOBILE */
+
+    h1 {
+        font-size: 1rem;
+    }
+
+    .playEsa {
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    /* SAME CLASS FOR EXPLORE PAGE VIDEO */
+
+    .exploreOrder {
+        padding-left: 5%;
+    }
+
+    .playEsa2 {
+        position: relative;
+        height: 300px;
+        width: 85%;
+        padding: 40px;
+    }
+
+    .playEsa2>iframe {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .playEsa p {
+        display: flex;
+        box-shadow: none;
+        font-size: 4vw;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
+
+    .mapEsa {
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .mapEsa2 {
+        position: relative;
+        height: 300px;
+        width: 85%;
+        padding: 30px;
+    }
+
+    .mapEsa2>iframe {
+        width: 100%;
+        height: 100%;
+    }
+
+    .mapEsa p {
+        display: flex;
+        box-shadow: none;
+        font-size: 4vw;
+        padding-left: 10%;
+        padding-right: 15%;
+    }
+
+    /* PRODUCTS MOBILE */
+
+    .artesaniasOrder P {
+        font-weight: bold;
+    }
+
+
+    /* CONTACT MOBILE */
+
+    .contactbox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    textarea {
+        width: 100%;
+    }
+
+    label {
+        margin-bottom: 4px;
+    }
+
+    .submitreset {
+        box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
+        border: none;
+    }
+
+
+}
+
+@media (min-width: 701px) and (max-width: 1024px) {
+
+
+    nav ul li {
+        padding-left: 3px;
+        padding-right: 3px;
+        padding-top: 2px;
+    }
+
+    a {
+        font-size: 0.9rem;
+    }
+
+    /* HOME PAGE TABLET */
+
+
+    .tittleWonder {
+        left: 55%;
+        padding-top: 50px;
+        font-size: 25px;
+    }
+
+    .home-image-box {
+        width: 70%;
+    }
+
+    .home-image-box p {
+        padding: 4px;
+    }
+
+    /* WONDER PAGE TABLET */
+
+    .playEsa {
+        flex-direction: column;
+    }
+
+    .mapEsa {
+        flex-direction: column;
+    }
+
+    .playEsa p {
+        box-shadow: none;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .mapEsa p {
+        box-shadow: none;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    /* EXPLORER PAGE TABLET */
+
+    .explorecontent {
+        width: 280px;
+        height: auto;
+        justify-content: center;
+        margin-right: 1px;
+    }
+
+    .exploreOrder {
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    }
+
+    /* PRODUCTS PAGE TABLET */
+
+    .artesaniasOrder {
+        grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    }
+
+    .artesanias {
+        width: 340px;
+        height: auto;
+    }
+
+}
