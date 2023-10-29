@@ -490,6 +490,10 @@ label {
         color: white;
     }
 
+    nav ul li a {
+        color: whitesmoke
+    }
+    
     /* Home mobile */
 
     .tittleWonder {
