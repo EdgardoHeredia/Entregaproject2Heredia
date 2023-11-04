@@ -72,6 +72,12 @@ nav ul li a {
 }
 
 
+nav ul li :hover {
+    background-color: rgba(1, 9, 60, 0.714);
+    border-radius: 2px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.352);
+    color: rgb(219, 235, 249);
+    }
 
 nav ul li a:hover {
     background-color: rgba(1, 9, 60, 0.714);
