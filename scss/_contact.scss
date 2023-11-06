@@ -1,0 +1,61 @@
+/* wonder contact page */
+
+form {
+    margin-top: 30px;
+}
+
+label {
+    display: block;
+    font-family: 'Varela Round', sans-serif;
+    margin-top: 12px;
+    margin-bottom: 2px;
+    color: rgb(1, 44, 153);
+}
+
+input [type="text"],
+textarea {
+    display: block;
+    width: 25%;
+    padding: 5px;
+    border: 5px solid rgb(41, 41, 121);
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.contactbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.submitreset {
+    background-color: rgb(99, 98, 98);
+    color: rgba(236, 255, 60, 0.832);
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 15px;
+    width: 60px;
+    height: 30px;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+textarea {
+    width: 100%;
+}
+
+label {
+    margin-bottom: 4px;
+}
+
+.submitreset {
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
+    border: none;
+}

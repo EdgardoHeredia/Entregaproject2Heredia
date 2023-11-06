@@ -1,0 +1,230 @@
+@media (max-width: 700px) {
+    /* Navigatio Bar for mobile device */
+
+    .noMobileNavBar,
+    .navbarMobile,
+    .nav-Toggle {
+        display: none;
+    }
+
+    #navToggle:checked+.nav-Button+.navbarMobile {
+        display: block;
+    }
+
+    .nav-Button {
+        display: block;
+        background-color: rgba(1, 1, 69, 0.868);
+        color: white;
+        padding: 10px;
+        margin-right: 15px;
+        margin-bottom: 22px;
+        border-radius: 12px;
+        font-family: 'Varela Round', sans-serif;
+        box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.57);
+    }
+
+    .mobileNavBar {
+        display: block;
+        position: fixed;
+        inset: 100px 0 55% 66%;
+        background-color: rgba(31, 31, 31, 0.466);
+        padding: 10px;
+    }
+
+    a {
+        font-size: 1.2rem;
+        display: flex;
+        color: white;
+    }
+
+    nav ul li a {
+        color: whitesmoke;
+    }
+
+    /* Home mobile */
+
+    .tittleWonder {
+        font-size: 15px;
+        left: 55%;
+        margin-top: 1px;
+    }
+
+    .home-image-box {
+        margin-top: 170px;
+        width: 40%;
+
+        h2 {
+            font-size: 1rem;
+        }
+
+        p {
+            font-size: 15px;
+            padding: 10px;
+            padding-top: 0px;
+        }
+    }
+
+    .paragraph,
+    footer {
+        display: none;
+    }
+
+    /* WONDER MOBILE */
+
+    h1 {
+        font-size: 1rem;
+    }
+
+    .playEsa {
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    /* SAME CLASS FOR EXPLORE PAGE VIDEO */
+
+    .exploreOrder {
+        padding-left: 5%;
+    }
+
+    .playEsa2 {
+        position: relative;
+        height: 300px;
+        width: 85%;
+        padding: 40px;
+
+        >iframe {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .playEsa p {
+        display: flex;
+        box-shadow: none;
+        font-size: 4vw;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
+
+    .mapEsa {
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .mapEsa2 {
+        position: relative;
+        height: 300px;
+        width: 85%;
+        padding: 30px;
+
+        >iframe {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .mapEsa p {
+        display: flex;
+        box-shadow: none;
+        font-size: 4vw;
+        padding-left: 10%;
+        padding-right: 15%;
+    }
+
+    /* PRODUCTS MOBILE */
+
+    .artesaniasOrder P {
+        font-weight: bold;
+    }
+
+    /* CONTACT MOBILE */
+
+    .contactbox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    textarea {
+        width: 100%;
+    }
+
+    label {
+        margin-bottom: 4px;
+    }
+
+    .submitreset {
+        box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
+        border: none;
+    }
+}
+
+@media (min-width: 701px) and (max-width: 1024px) {
+    nav ul li {
+        padding-left: 3px;
+        padding-right: 3px;
+        padding-top: 2px;
+    }
+
+    a {
+        font-size: 0.9rem;
+    }
+
+    /* HOME PAGE TABLET */
+
+    .tittleWonder {
+        left: 55%;
+        padding-top: 50px;
+        font-size: 25px;
+    }
+
+    .home-image-box {
+        width: 70%;
+
+        p {
+            padding: 4px;
+        }
+    }
+
+    /* WONDER PAGE TABLET */
+
+    .playEsa,
+    .mapEsa {
+        flex-direction: column;
+    }
+
+    .playEsa p,
+    .mapEsa p {
+        box-shadow: none;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    /* EXPLORER PAGE TABLET */
+
+    .explorecontent {
+        width: 280px;
+        height: auto;
+        justify-content: center;
+        margin-right: 1px;
+    }
+
+    .exploreOrder {
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    }
+
+    /* PRODUCTS PAGE TABLET */
+
+    .artesaniasOrder {
+        grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    }
+
+    .artesanias {
+        width: 340px;
+        height: auto;
+    }
+}

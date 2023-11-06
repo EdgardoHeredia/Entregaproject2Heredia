@@ -1,0 +1,54 @@
+/* guide page style */
+
+h2 {
+    color: rgb(1, 44, 153);
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+    margin: 10px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.651);
+}
+
+.guideI {
+    object-fit: cover;
+    cursor: pointer;
+    width: 400px;
+    height: 360px;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.766);
+}
+
+.guideA {
+    object-fit: cover;
+    cursor: pointer;
+    width: 400px;
+    height: 300px;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.766);
+}
+
+.guideOrder {
+    :hover {
+        transform: scale(1.1);
+    }
+
+    display: grid;
+    background-color: rgba(0, 150, 80, 0.268);
+    place-items: center;
+    grid-template-rows: repeat(auto-fit, minmax(400px, 1fr));
+    row-gap: 25px;
+    width: 100%;
+    height: fit-content;
+    padding-bottom: 40px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+h3 {
+    color: rgb(1, 44, 153);
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+    margin: 60px;
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.651);
+}

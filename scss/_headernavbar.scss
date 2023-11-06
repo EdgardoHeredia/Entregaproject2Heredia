@@ -1,0 +1,63 @@
+/* header style */
+
+header {
+    position: fixed;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding: 0;
+    width: 100%;
+    box-shadow: 6px 6px 11px black;
+}
+
+.el_salvador_logo_new {
+    width: 230px;
+    cursor: pointer;
+}
+
+/* navigation bar */
+
+.navbar {
+    z-index: 100;
+}
+
+.mobileNavBar,
+.nav-Button,
+.nav-Toggle {
+    display: none;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 3px;
+    background-color: none;
+
+    a {
+        text-decoration: wavy;
+        text-transform: uppercase;
+        font-family: 'Varela Round', sans-serif;
+        font-weight: lighter;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.607);
+        color: rgb(1, 44, 153);
+        font-size: 1rem;
+        align-self: end;
+        transition: 0.3s;
+        cursor: pointer;
+    }
+
+    :hover {
+        background-color: rgba(1, 9, 60, 0.714);
+        border-radius: 2px;
+        box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.352);
+        color: rgb(219, 235, 249);
+    }
+
+    a:hover {
+        background-color: rgba(1, 9, 60, 0.714);
+        color: aliceblue;
+    }
+}
