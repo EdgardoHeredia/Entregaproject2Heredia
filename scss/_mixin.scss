@@ -1,0 +1,47 @@
+/* MIXIN */
+
+@mixin textform {
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+}
+
+@mixin contentform {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    row-gap: 25px;
+    width: 100%;
+    height: fit-content;
+}
+
+@mixin wihi($width,$height) {
+    width: $width ;
+    height: $height;
+}
+
+/*contact page*/
+
+.submitreset {
+  @include wihi(100px,30px )
+}
+
+/*product page*/
+
+.artesanias {
+    @include wihi(350px,300px)
+}
+
+/*explorer page*/
+
+.explorecontent {
+    @include wihi(400px,300px)
+}
+
+/*guide page*/
+
+.guideI {
+    @include wihi(auto,370px)
+}
+
+.guideA {
+    @include wihi(400px,300px)
+}

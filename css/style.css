@@ -24,6 +24,36 @@ h1 {
   text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.599);
 }
 
+/* MIXIN */
+/*contact page*/
+.submitreset {
+  width: 100px;
+  height: 30px;
+}
+
+/*product page*/
+.artesanias {
+  width: 350px;
+  height: 300px;
+}
+
+/*explorer page*/
+.explorecontent {
+  width: 400px;
+  height: 300px;
+}
+
+/*guide page*/
+.guideI {
+  width: auto;
+  height: 370px;
+}
+
+.guideA {
+  width: 400px;
+  height: 300px;
+}
+
 /* header style */
 header {
   position: fixed;
@@ -180,9 +210,9 @@ main img {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   row-gap: 25px;
-  background-color: rgba(0, 150, 80, 0.268);
   width: 100%;
   height: fit-content;
+  background-color: rgba(0, 150, 80, 0.268);
 }
 
 .textExplore {
@@ -200,8 +230,6 @@ main img {
 .explorecontent {
   position: relative;
   background-color: rgb(39, 37, 37);
-  width: 400px;
-  height: 300px;
   padding: 0px;
   margin: 20px;
   box-shadow: 5px 5px 10px;
@@ -230,7 +258,7 @@ main img {
 
 /* wonder products page */
 .productsInput p {
-  color: rgba(1, 65, 36, 0.832);
+  color: rgba(1, 51, 20, 0.832);
   font-family: "Varela Round", sans-serif;
   text-align: center;
   padding: 20px;
@@ -247,8 +275,6 @@ main img {
 }
 
 .artesanias {
-  width: 350px;
-  height: 300px;
   padding: 0;
   margin: 20px;
   box-shadow: 5px 5px 10px;
@@ -286,8 +312,6 @@ h2 {
 .guideI {
   object-fit: cover;
   cursor: pointer;
-  width: auto;
-  height: 370px;
   box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.766);
 }
 
@@ -301,13 +325,12 @@ h2 {
 
 .guideOrder {
   display: grid;
-  background-color: rgba(0, 150, 80, 0.268);
-  place-items: center;
-  grid-template-rows: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   row-gap: 25px;
   width: 100%;
   height: fit-content;
-  padding-bottom: 40px;
+  background-color: rgba(0, 150, 80, 0.268);
+  place-items: center;
   transition: 0.5s;
   cursor: pointer;
 }
@@ -363,8 +386,6 @@ textarea {
   font-size: 14px;
   cursor: pointer;
   margin-top: 15px;
-  width: 100px;
-  height: 30px;
 }
 
 .contact {

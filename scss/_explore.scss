@@ -1,12 +1,9 @@
 /* explorer page style */
 
 .exploreOrder {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    row-gap: 25px;
+    @include contentform;
     background-color: rgba(0, 150, 80, 0.268);
-    width: 100%;
-    height: fit-content;
+   
 }
 
 .textExplore {
@@ -24,8 +21,6 @@
 .explorecontent {
     position: relative;
     background-color: rgb(39, 37, 37);
-    width: 400px;
-    height: 300px;
     padding: 0px;
     margin: 20px;
     box-shadow: 5px 5px 10px;

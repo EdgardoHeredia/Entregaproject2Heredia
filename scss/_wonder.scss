@@ -14,7 +14,7 @@
 }
 
 .playEsa p {
-    color: rgba(1, 51, 20, 0.832);
+    color: $text-color-green;
     font-family: 'Varela Round', sans-serif;
     padding: 20PX;
     box-shadow: 4PX 4PX 6PX;
@@ -37,7 +37,7 @@
 }
 
 .mapEsa p {
-    color: rgba(1, 51, 20, 0.832);
+    color: $text-color-green;
     font-family: 'Varela Round', sans-serif;
     padding: 20PX;
     box-shadow: 4PX 4PX 6PX;

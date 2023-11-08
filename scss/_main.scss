@@ -16,8 +16,7 @@
 
     h2 {
         color: rgb(204, 221, 26);
-        font-family: 'Varela Round', sans-serif;
-        text-align: center;
+        @include textform;
         padding-top: 10px;
         text-shadow: 2px 2px 4px rgba(3, 1, 29, 0.725);
         font-size: 1.4rem;

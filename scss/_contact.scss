@@ -9,7 +9,7 @@ label {
     font-family: 'Varela Round', sans-serif;
     margin-top: 12px;
     margin-bottom: 2px;
-    color: rgb(1, 44, 153);
+    color: $theme-text-color;
 }
 
 input [type="text"],
@@ -37,8 +37,6 @@ textarea {
     font-size: 14px;
     cursor: pointer;
     margin-top: 15px;
-    width: 100px;
-    height: 30px;
 }
 
 .contact {

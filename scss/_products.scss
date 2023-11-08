@@ -1,25 +1,18 @@
 /* wonder products page */
 
 .productsInput p {
-    color: rgba(1, 65, 36, 0.832);
-    font-family: 'Varela Round', sans-serif;
-    text-align: center;
+    color: $text-color-green;
+    @include textform;
     padding: 20px;
     font-size: 1.2em;
 }
 
 .artesaniasOrder {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    row-gap: 25px;
-    width: 100%;
-    height: fit-content;
+    @include contentform;
     padding-bottom: 40px;
 }
 
 .artesanias {
-    width: 350px;
-    height: 300px;
     padding: 0;
     margin: 20px;
     box-shadow: 5px 5px 10px;
@@ -37,9 +30,8 @@
     }
 
     p {
-        color: rgb(1, 44, 153);
-        font-family: 'Varela Round', sans-serif;
-        text-align: center;
+        color: $theme-text-color;
+        @include textform;
         padding: 4px;
         cursor: pointer;
         font-weight: bold;
