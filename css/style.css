@@ -207,12 +207,12 @@ main img {
 
 /* explorer page style */
 .exploreOrder {
+  background: linear-gradient(270deg, rgb(95, 167, 119) 0%, rgb(142, 195, 152) 10%, rgb(165, 217, 175) 46%, rgb(252, 252, 252) 94%);
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   row-gap: 25px;
   width: 100%;
   height: fit-content;
-  background-color: rgba(0, 150, 80, 0.268);
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
 
 .textExplore {
@@ -266,11 +266,12 @@ main img {
 }
 
 .artesaniasOrder {
+  background: linear-gradient(270deg, rgb(95, 167, 119) 0%, rgb(142, 195, 152) 10%, rgb(165, 217, 175) 46%, rgb(252, 252, 252) 94%);
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   row-gap: 25px;
   width: 100%;
   height: fit-content;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   padding-bottom: 40px;
 }
 
@@ -324,12 +325,12 @@ h2 {
 }
 
 .guideOrder {
+  background: linear-gradient(270deg, rgb(95, 167, 119) 0%, rgb(142, 195, 152) 10%, rgb(165, 217, 175) 46%, rgb(252, 252, 252) 94%);
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   row-gap: 25px;
   width: 100%;
   height: fit-content;
-  background-color: rgba(0, 150, 80, 0.268);
+  grid-template-columns: repeat(auto-fit, minmax(400px));
   place-items: center;
   transition: 0.5s;
   cursor: pointer;
@@ -409,22 +410,29 @@ label {
 
 /* footer */
 footer {
-  margin-top: 100%;
-  border-top: 2px solid black;
+  margin-top: 200px;
+  border-top: 2px solid rgba(0, 0, 0, 0.632);
   color: rgba(255, 255, 255, 0.681);
   font-family: "Varela Round", sans-serif;
   text-align: center;
   padding-bottom: 10px;
-  background-color: rgb(4, 4, 87);
+  background: linear-gradient(70deg, rgb(3, 19, 86) 16%, rgb(37, 48, 116) 63%, rgb(91, 101, 159) 100%, rgb(165, 173, 217) 100%, rgb(252, 252, 252) 100%);
 }
 footer h3 {
-  color: rgb(11, 65, 202);
+  color: rgb(201, 202, 207);
   font-family: "Varela Round", sans-serif;
   text-align: center;
-  margin: 60px;
+  margin: 30px;
   margin-bottom: 30px;
   font-size: 1.5rem;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.651);
+}
+footer .socialMedia img {
+  align-items: center;
+  justify-content: space-around;
+  padding: 5px;
+  width: 30px;
+  height: auto-fit;
 }
 
 @media (max-width: 700px) {
@@ -481,9 +489,16 @@ footer h3 {
     padding: 10px;
     padding-top: 0px;
   }
-  .paragraph,
-  footer {
+  .paragraph {
     display: none;
+  }
+  footer h3 {
+    font-size: 1rem;
+    margin: 10px;
+  }
+  footer img {
+    width: 20px;
+    height: auto;
   }
   /* WONDER MOBILE */
   h1 {

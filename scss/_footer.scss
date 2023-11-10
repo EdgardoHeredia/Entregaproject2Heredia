@@ -1,19 +1,26 @@
 /* footer */
 
 footer {
-    margin-top: 100%;
-    border-top: 2px solid black;
+    margin-top: 200px;
+    border-top: 2px solid rgba(0, 0, 0, 0.632);
     color: rgba(255, 255, 255, 0.681);
     @include textform;
     padding-bottom: 10px;
-    background-color: rgb(4, 4, 87);
+    background: linear-gradient(70deg, rgba(3, 19, 86) 16%, rgba(37, 48, 116) 63%, rgba(91, 101, 159) 100%, rgba(165, 173, 217, 1) 100%, rgba(252, 252, 252) 100%);
 
     h3 {
-        color: rgb(11, 65, 202);
+        color: rgb(201, 202, 207);
         @include textform;
-        margin: 60px;
+        margin: 30px;
         margin-bottom: 30px;
         font-size: 1.5rem;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.651);
+    }
+
+    .socialMedia img {
+        align-items: center;
+        justify-content: space-around;
+        padding: 5px;
+        @include wihi (30px, auto-fit);
     }
 }

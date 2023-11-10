@@ -6,14 +6,14 @@
 }
 
 @mixin contentform {
+    background: linear-gradient(270deg, rgba(95, 167, 119, 1) 0%, rgba(142, 195, 152, 1) 10%, rgba(165, 217, 175, 1) 46%, rgba(252, 252, 252, 1) 94%);
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     row-gap: 25px;
     width: 100%;
     height: fit-content;
 }
 
-@mixin wihi($width,$height) {
+@mixin wihi($width, $height) {
     width: $width ;
     height: $height;
 }
@@ -21,27 +21,27 @@
 /*contact page*/
 
 .submitreset {
-  @include wihi(100px,30px )
+    @include wihi(100px, 30px)
 }
 
 /*product page*/
 
 .artesanias {
-    @include wihi(350px,300px)
+    @include wihi(350px, 300px)
 }
 
 /*explorer page*/
 
 .explorecontent {
-    @include wihi(400px,300px)
+    @include wihi(400px, 300px)
 }
 
 /*guide page*/
 
 .guideI {
-    @include wihi(auto,370px)
+    @include wihi(auto, 370px)
 }
 
 .guideA {
-    @include wihi(400px,300px)
+    @include wihi(400px, 300px)
 }

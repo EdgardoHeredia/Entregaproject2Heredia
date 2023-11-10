@@ -64,10 +64,20 @@
         }
     }
 
-    .paragraph,
-    footer {
+    .paragraph {
         display: none;
     }
+
+
+    footer h3 {
+        font-size: 1rem;
+        margin: 10px;
+    }
+
+    footer img {
+        @include wihi(20px, auto);
+    }
+
 
     /* WONDER MOBILE */
 

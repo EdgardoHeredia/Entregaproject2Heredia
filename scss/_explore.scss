@@ -2,8 +2,7 @@
 
 .exploreOrder {
     @include contentform;
-    background-color: rgba(0, 150, 80, 0.268);
-   
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
 
 .textExplore {
